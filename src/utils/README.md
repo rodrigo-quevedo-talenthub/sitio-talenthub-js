@@ -1,0 +1,3 @@
+Funciones genéricas. El criterio es que es una función que podría usarse en cualquier otro proyecto JavaScript, independientemente del contexto y de las librerías de ese otro proyecto. 
+
+Ej: una función que le da cierto formato a un string, por ejemplo una función que toma un nombre y un apellido y le da el formato "[apellidos separados por espacio, todo en mayuscula], [nombres separados por espacio, todo en mayuscula]".

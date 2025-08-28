@@ -1,0 +1,1 @@
+Logos, imagenes, etc. La diferencia con /public es que aca son mas privados, solo se puede acceder a estos archivos con un import en el codigo. En cambio en /public se puede acceder a los archivos poniendo el nombre del archivo en la URL.
