@@ -1,5 +1,5 @@
 
-import bg from "../assets/background/bg.png"
+import bg from "../assets/background/bg.avif"
 
 
 export default function MainLayout({children}){
