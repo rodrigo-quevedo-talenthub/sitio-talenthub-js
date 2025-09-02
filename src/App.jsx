@@ -10,8 +10,8 @@ function App() {
     <MainLayout>
 
         <InicioSection />
-        {/* <InicioSection />
-        <InicioSection /> */}
+        <InicioSection />
+        <InicioSection />
 
     </MainLayout>
   )
