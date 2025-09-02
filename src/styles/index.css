@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+/* .colorable-icon, .colorable-icon path, .colorable-icon g, .colorable-icon * {
+  fill: currentColor !important;
+  stroke: #fff !important;
+} */
