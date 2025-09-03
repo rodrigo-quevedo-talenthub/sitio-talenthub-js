@@ -21,16 +21,6 @@ function App() {
     <MainLayout>
 
         <InicioSection />
-        {/* <InicioSection /> */}
-        {/* <div 
-            style={{ backgroundImage: `url(${historiaBG})`}}
-            className="
-                h-[90vh] 
-                bg-cover bg-no-repeat bg-center
-        ">
-
-        </div> */}
-        
 
         <div className="grid grid-cols-2 p-20 gap-10">
             <CardImgLeft 
@@ -114,6 +104,8 @@ function App() {
                 <p>Encontramos el talento adecuado y desarrollamos bancos de talentos para tus necesidades.</p>
             </CardImgCenter>
         </div>
+
+
 
 
 
