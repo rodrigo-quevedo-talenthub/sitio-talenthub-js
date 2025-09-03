@@ -5,7 +5,11 @@
 
 
 
-export default function CardImgLeft({svgIcono, titulo, children}) {
+// Simplemente hay que usar grid en un container y las cards se adaptan al tamaño establecido en ese grid.
+
+import IconoCirculo from "../IconoCirculo/IconoCirculo";
+
+export default function CardImgLeft({svgIcono, titulo, type, children}) {
     
     return (
         <div className="
@@ -16,15 +20,8 @@ export default function CardImgLeft({svgIcono, titulo, children}) {
             max-w-[50vw]
             p-5
         ">
-            
-            <div className="
-                inline-block
-                rounded-full
-                bg-[#481c9e]
-                p-3
-            ">
-                <img src={svgIcono} alt={titulo} className="w-7 h-7 brightness-0 invert" />
-            </div>
+            <IconoCirculo svgIcono={svgIcono} titulo={titulo} type={type}/>
+
 
             <h3 className="
                 font-[Montserrat]
