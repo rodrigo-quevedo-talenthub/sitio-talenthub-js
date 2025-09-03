@@ -6,12 +6,12 @@ import MainLayout from "./layouts/MainLayout"
 
 
 // import historiaBG from "./assets/background/bg-nuestrahistoria-section.png"
-import mision from "./assets/icons/mision.svg"
-import vision from "./assets/icons/vision.svg"
+import mision from "./assets/icons/filosofia/mision.svg"
+import vision from "./assets/icons/filosofia/vision.svg"
 
-import desarrollo_org from "./assets/icons/desarrollo-org.svg"
-import capacitacion from "./assets/icons/capacitacion.svg"
-import reclutamiento from "./assets/icons/reclutamiento.svg"
+import desarrollo_org from "./assets/icons/servicios/desarrollo-org.svg"
+import capacitacion from "./assets/icons/servicios/capacitacion.svg"
+import reclutamiento from "./assets/icons/servicios/reclutamiento.svg"
 
 
 function App() {
