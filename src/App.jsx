@@ -4,14 +4,13 @@ import CardImgLeft from "./components/CardImgLeft/CardImgLeft"
 import InicioSection from "./features/inicio/InicioSection"
 import MainLayout from "./layouts/MainLayout"
 
-
-// import historiaBG from "./assets/background/bg-nuestrahistoria-section.png"
 import mision from "./assets/icons/filosofia/mision.svg"
 import vision from "./assets/icons/filosofia/vision.svg"
 
 import desarrollo_org from "./assets/icons/servicios/desarrollo-org.svg"
 import capacitacion from "./assets/icons/servicios/capacitacion.svg"
 import reclutamiento from "./assets/icons/servicios/reclutamiento.svg"
+import NuestraHistoriaSection from "./features/nuestra_historia/NuestraHistoriaSection.jsx";
 
 
 function App() {
@@ -21,6 +20,8 @@ function App() {
     <MainLayout>
 
         <InicioSection />
+
+        <NuestraHistoriaSection/>
 
         <div className="grid grid-cols-2 p-20 gap-10">
             <CardImgLeft 
