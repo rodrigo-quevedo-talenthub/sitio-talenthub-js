@@ -11,6 +11,7 @@ import capacitacion from "./assets/icons/servicios/capacitacion.svg"
 import reclutamiento from "./assets/icons/servicios/reclutamiento.svg"
 import FilosofiaSection from "./features/FilosofiaSection/FilosofiaSection"
 import ValoresSection from "./features/ValoresSection/ValoresSection"
+import ComoEmpezamosSection from "./features/como_empezamos/ComoEmpezamosSection.jsx";
 
 
 function App() {
@@ -88,7 +89,7 @@ function App() {
         </div> */}
 
 
-
+        <ComoEmpezamosSection/>
 
 
     </MainLayout>
