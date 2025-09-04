@@ -7,10 +7,16 @@ import MainLayout from "./layouts/MainLayout"
 import mision from "./assets/icons/filosofia/mision.svg"
 import vision from "./assets/icons/filosofia/vision.svg"
 
+
 import desarrollo_org from "./assets/icons/servicios/desarrollo-org.svg"
 import capacitacion from "./assets/icons/servicios/capacitacion.svg"
 import reclutamiento from "./assets/icons/servicios/reclutamiento.svg"
+
 import NuestraHistoriaSection from "./features/nuestra_historia/NuestraHistoriaSection.jsx";
+
+import FilosofiaSection from "./features/FilosofiaSection/FilosofiaSection"
+import ValoresSection from "./features/ValoresSection/ValoresSection"
+
 
 
 function App() {
@@ -32,20 +38,13 @@ function App() {
                 <p>Impulsar el crecimiento de las organizaciones a través de la sinergia entre el talento humano y la tecnología, llevando soluciones innovadoras y accesibles a cada empresa.</p>
             </CardImgLeft>
 
-            <CardImgLeft 
-                svgIcono={vision}
-                titulo={"Visión"}
-                type={"simple"}
-            >
-                <p>Ser el puente que conecta el talento con el desarrollo tecnológico, posicionándonos como líderes en el mercado por nuestra capacidad de integrar lo mejor de ambos mundos.</p>
-            </CardImgLeft>
-
-        </div>
+        <FilosofiaSection />
 
 
+        <ValoresSection />
 
 
-        <div className="grid grid-cols-3 p-20 px-100 gap-10">
+        {/* <div className="grid grid-cols-3 p-20 px-100 gap-10">
             <CardImgCenter svgIcono={desarrollo_org} titulo={"Desarrollo Organizacional"}>
                 <h3 className="
                     font-[Montserrat]
@@ -104,7 +103,7 @@ function App() {
                 </h3>
                 <p>Encontramos el talento adecuado y desarrollamos bancos de talentos para tus necesidades.</p>
             </CardImgCenter>
-        </div>
+        </div> */}
 
 
 
