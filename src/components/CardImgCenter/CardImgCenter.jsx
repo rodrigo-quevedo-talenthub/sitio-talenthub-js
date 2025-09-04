@@ -18,7 +18,7 @@ export default function CardImgCenter({svgIcono, titulo, children}) {
     return (
         <div className="relative max-w-[50vw] h-full"> 
             {/* Border top */}
-            <div class="
+            <div className="
                 absolute -top-1 left-0 z-10
                 w-full
                 rounded-t-lg bg-[linear-gradient(121deg,#581CA0_10%,#371C9C_90%)] p-[3.5px]
