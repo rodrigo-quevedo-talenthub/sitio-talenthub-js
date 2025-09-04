@@ -17,7 +17,7 @@ export default function FilosofiaSection(){
         ">
             <div className="
                 text-center lg:text-left
-                w-[75%] lg:w-[65%]  
+                w-[75%] lg:w-[80%] 
             ">
            
                 <h2 className="
@@ -31,7 +31,7 @@ export default function FilosofiaSection(){
                 <div className="
                     flex flex-col items-stretch
                     lg:grid lg:grid-cols-2 lg:p-0 
-                    gap-10
+                    gap-4
                 ">
                     <CardImgLeft 
                         svgIcono={mision}

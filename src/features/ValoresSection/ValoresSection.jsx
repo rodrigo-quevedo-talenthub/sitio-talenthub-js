@@ -19,7 +19,7 @@ export default function ValoresSection(){
         ">
             <div className="
                 text-center lg:text-left
-                w-[75%] lg:w-[65%]  
+                w-[75%] lg:w-[80%]  
             ">
 
          
@@ -34,7 +34,7 @@ export default function ValoresSection(){
                 <div className="
                     flex flex-col items-stretch
                     lg:grid lg:grid-cols-3
-                    gap-10
+                    gap-4
                 ">
                     <CardImgLeft
                         svgIcono={innovacion}
@@ -47,7 +47,7 @@ export default function ValoresSection(){
                         svgIcono={integridad}
                         titulo={"Integridad Impecable"}
                     >
-                        <p>Tu confianza es nuestro mayor activo. Somos una empresa que <span>honra su palabra</span> y se compromete con cada proyecto, desde el primer contacto hasta el resultado final.</p>
+                        <p>Tu confianza es nuestro mayor activo. Somos una empresa que <span className="font-bold">honra su palabra</span> y se compromete con cada proyecto, desde el primer contacto hasta el resultado final.</p>
                     </CardImgLeft>
 
                     <CardImgLeft 
