@@ -16,7 +16,7 @@ export default function CardImgCenter({svgIcono, titulo, children}) {
     
     
     return (
-        <div className="relative max-w-[50vw] h-full"> 
+        <div className="relative lg:max-w-[50vw] h-full"> 
             {/* Border top */}
             <div className="
                 absolute -top-1 left-0 z-10

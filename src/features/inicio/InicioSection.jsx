@@ -15,7 +15,7 @@ export default function InicioSection(){
                 flex items-center justify-center
                 flex-col md:flex-row
                 text-center md:text-left
-                w-[85%] lg:w-[75%] 
+                w-[85%] lg:w-[80%] 
             ">
 
                 <img src={logoIcon} alt="TalentHub" className="
