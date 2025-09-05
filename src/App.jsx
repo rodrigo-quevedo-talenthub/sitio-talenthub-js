@@ -12,6 +12,7 @@ import reclutamiento from "./assets/icons/servicios/reclutamiento.svg"
 import FilosofiaSection from "./features/FilosofiaSection/FilosofiaSection"
 import ValoresSection from "./features/ValoresSection/ValoresSection"
 import ServiciosSection from "./features/servicios/components/ServiciosSection"
+import AgentesSection from "./features/agentes/components/AgentesSection"
 
 
 function App() {
@@ -90,7 +91,7 @@ function App() {
         </div> */}
 
 
-
+        <AgentesSection />
 
 
     </MainLayout>
