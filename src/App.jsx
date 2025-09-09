@@ -29,14 +29,14 @@ function App() {
 
         <NuestraHistoriaSection/>
 
-        <div className="grid grid-cols-2 p-20 gap-10">
+        {/* <div className="grid grid-cols-2 p-20 gap-10">
             <CardImgLeft 
                 svgIcono={mision}
                 titulo={"Misión"}
                 type={"simple"}
             >
                 <p>Impulsar el crecimiento de las organizaciones a través de la sinergia entre el talento humano y la tecnología, llevando soluciones innovadoras y accesibles a cada empresa.</p>
-            </CardImgLeft>
+            </CardImgLeft> */}
 
         <FilosofiaSection />
 
