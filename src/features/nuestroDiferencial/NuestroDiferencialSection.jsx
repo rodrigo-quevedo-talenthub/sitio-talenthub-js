@@ -11,7 +11,7 @@ export default function NuestraDiferencialSection() {
             <div className="relative w-[80%] lg:w-[80%] max-w-5xl mx-auto space-y-6 text-[#F3F1F2]">
 
                 <h2 className="text-4xl font-bold">
-                    Nuestro Diferencial
+                    Nuestro Diferencial: Un Proceso Humano y Accesible
                 </h2>
 
                 <p className="text-lg leading-relaxed">
