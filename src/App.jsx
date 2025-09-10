@@ -11,7 +11,7 @@ import capacitacion from "./assets/icons/servicios/capacitacion.svg"
 import reclutamiento from "./assets/icons/servicios/reclutamiento.svg"
 import FilosofiaSection from "./features/FilosofiaSection/FilosofiaSection"
 import ValoresSection from "./features/ValoresSection/ValoresSection"
-import SoftwareYAppsSection from "./features/softwareYAppsSection/softwareYAppsSection.jsx";
+import SoftwareYAppsSection from "./features/softwareYAppsSection/components/SoftwareYAppsSection.jsx";
 
 
 function App() {

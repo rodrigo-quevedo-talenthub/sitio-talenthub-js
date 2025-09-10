@@ -15,9 +15,9 @@ export default function BannerSVG(props) {
 
     const left = 0;
     const right = width; // stretch with screen
-    const arrowInset = 20;
+    const arrowInset = 25;
 
-    const rightSpace = 20;
+    const rightSpace = 25;
 
     const d = `
         M ${right - rightSpace} 0
@@ -34,10 +34,12 @@ export default function BannerSVG(props) {
         <svg 
             width="fit-content" height="72" 
             viewBox={`0 0 ${width} 83`}
+            preserveAspectRatio="none"
             {...props}>
 
             <path 
                 stroke="#4a2c85ff" 
+                strokeWidth={2}
                 fill="url(#theme-accent-background-gradient-linear)"
                 transform="scale(1, 1.15)"
                 d={d}
