@@ -16,6 +16,7 @@ import NuestraHistoriaSection from "./features/nuestra_historia/NuestraHistoriaS
 
 import FilosofiaSection from "./features/FilosofiaSection/FilosofiaSection"
 import ValoresSection from "./features/ValoresSection/ValoresSection"
+import NuestraDiferencialSection from "./features/nuestroDiferencial/NuestroDiferencialSection.jsx";
 
 
 
@@ -107,7 +108,7 @@ function App() {
 
 
 
-
+        <NuestraDiferencialSection/>
 
     </MainLayout>
   )
