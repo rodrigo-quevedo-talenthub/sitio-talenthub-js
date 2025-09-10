@@ -1,6 +1,10 @@
-import React from "react";
-import icFlecha from "../../assets/icons/software/ic_banner_arrow.svg";
 import icFile from "../../assets/icons/software/ic_file.svg"
+
+import BannerConIcono from "./BannerConIcono";
+
+import desarrollo from "../../assets/icons/soluciones/desarrollo.svg"
+import agentes from "../../assets/icons/soluciones/agentes.svg"
+import implementacion from "../../assets/icons/soluciones/implementacion.svg"
 
 export default function SoftwareYAppsSection() {
 
@@ -15,10 +19,12 @@ export default function SoftwareYAppsSection() {
                 <div>
                     {/*ICONO*/}
 
-
                     <div className="px-6 mb-8">
 
                         <div>
+                            
+                            <BannerConIcono iconoSVG={desarrollo}/>
+
                             <h3 className="text-xl font-bold mb-3">Desarrollo a medida</h3>
 
                             <p>
