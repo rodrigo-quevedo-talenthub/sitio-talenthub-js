@@ -4,13 +4,19 @@ import CardImgLeft from "./components/CardImgLeft/CardImgLeft"
 import InicioSection from "./features/inicio/InicioSection"
 import MainLayout from "./layouts/MainLayout"
 
+import mision from "./assets/icons/filosofia/mision.svg"
+import vision from "./assets/icons/filosofia/vision.svg"
 
 
 import desarrollo_org from "./assets/icons/servicios/desarrollo-org.svg"
 import capacitacion from "./assets/icons/servicios/capacitacion.svg"
 import reclutamiento from "./assets/icons/servicios/reclutamiento.svg"
+
+import NuestraHistoriaSection from "./features/nuestra_historia/NuestraHistoriaSection.jsx";
+
 import FilosofiaSection from "./features/FilosofiaSection/FilosofiaSection"
 import ValoresSection from "./features/ValoresSection/ValoresSection"
+
 
 
 function App() {
@@ -21,7 +27,19 @@ function App() {
 
         <InicioSection />
 
+        <NuestraHistoriaSection/>
+
+        {/* <div className="grid grid-cols-2 p-20 gap-10">
+            <CardImgLeft 
+                svgIcono={mision}
+                titulo={"Misión"}
+                type={"simple"}
+            >
+                <p>Impulsar el crecimiento de las organizaciones a través de la sinergia entre el talento humano y la tecnología, llevando soluciones innovadoras y accesibles a cada empresa.</p>
+            </CardImgLeft> */}
+
         <FilosofiaSection />
+
 
         <ValoresSection />
 
