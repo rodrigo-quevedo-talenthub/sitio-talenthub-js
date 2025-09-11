@@ -9,7 +9,7 @@ import orby from "../../../assets/icons/agentes/orby.svg"
 import berto from "../../../assets/icons/agentes/berto.svg"
 import quanto from "../../../assets/icons/agentes/quanto.svg"
 
-
+import AgentesBG from "../../../assets/background/bg_agentesia.png"
 
 
 
@@ -23,9 +23,16 @@ export default function AgentesSection(){
             w-[100%]
             min-h-[80vh] md:min-h-[70vh]
             py-20
-            bg-[#0d0a2cbf] backdrop-blur-[20px] backdrop-saturate-[170%]
-        ">
+            bg-cover bg-center backdrop-blur-[20px] backdrop-saturate-[170%]
+        "
+            style={{backgroundImage: `url(${AgentesBG}`}}
+        >
+
+        <div className=" absolute inset-0 bg-[#0d0a2ccc]/80 z-0"></div>
+
+
             <div className="
+                relative z-10
                 text-center lg:text-left
                 w-[75%] lg:w-[80%]  
             ">
