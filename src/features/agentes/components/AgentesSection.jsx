@@ -72,7 +72,9 @@ export default function AgentesSection(){
 
                 <div className="mt-4.5">
                     <StickNote>
-                        <p>Estos agentes IA te ayudarán a automatizar al menos el 70% de tus tareas.</p>
+                        <p>
+                            <span className="font-bold">¿Sabías que</span> estos agentes IA pueden automatizar hasta el <span className="font-bold">70% de tus tareas diarias</span>, liberando tiempo para actividades estratégicas?
+                        </p>
                     </StickNote>
                 </div>
             
