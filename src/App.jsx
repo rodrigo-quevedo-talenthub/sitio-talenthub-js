@@ -17,6 +17,8 @@ import NuestraHistoriaSection from "./features/nuestra_historia/NuestraHistoriaS
 import FilosofiaSection from "./features/FilosofiaSection/FilosofiaSection"
 import ValoresSection from "./features/ValoresSection/ValoresSection"
 import ServiciosSection from "./features/servicios/components/ServiciosSection"
+import AgentesSection from "./features/agentes/components/AgentesSection"
+import ContactoSection from "./features/contacto/components/ContactoSection"
 
 
 
@@ -108,8 +110,9 @@ function App() {
         </div> */}
 
 
+        <AgentesSection />
 
-
+        <ContactoSection />
 
     </MainLayout>
   )
