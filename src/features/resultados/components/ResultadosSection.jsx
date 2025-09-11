@@ -25,7 +25,7 @@ export default function ResultadosSection(){
             ">
 
                 <h2 className="
-                    text-5xl
+                    text-4xl 2xl:text-5xl
                     font-bold
                     mb-10
                 ">
