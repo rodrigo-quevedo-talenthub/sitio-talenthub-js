@@ -16,7 +16,13 @@ import NuestraHistoriaSection from "./features/nuestra_historia/NuestraHistoriaS
 
 import FilosofiaSection from "./features/FilosofiaSection/FilosofiaSection"
 import ValoresSection from "./features/ValoresSection/ValoresSection"
+
 import NuestraDiferencialSection from "./features/nuestroDiferencial/NuestroDiferencialSection.jsx";
+import ServiciosSection from "./features/servicios/components/ServiciosSection"
+import AgentesSection from "./features/agentes/components/AgentesSection"
+import ContactoSection from "./features/contacto/components/ContactoSection"
+import ResultadosSection from "./features/resultados/components/ResultadosSection"
+
 
 
 
@@ -28,87 +34,25 @@ function App() {
 
         <InicioSection />
 
-        <NuestraHistoriaSection/>
-
-        {/* <div className="grid grid-cols-2 p-20 gap-10">
-            <CardImgLeft 
-                svgIcono={mision}
-                titulo={"Misión"}
-                type={"simple"}
-            >
-                <p>Impulsar el crecimiento de las organizaciones a través de la sinergia entre el talento humano y la tecnología, llevando soluciones innovadoras y accesibles a cada empresa.</p>
-            </CardImgLeft> */}
-
         <FilosofiaSection />
 
-
         <ValoresSection />
+    
+        <NuestraHistoriaSection/>
 
+        <ServiciosSection />
+    
+        //<SoftwareYAppsSection/>
 
-        {/* <div className="grid grid-cols-3 p-20 px-100 gap-10">
-            <CardImgCenter svgIcono={desarrollo_org} titulo={"Desarrollo Organizacional"}>
-                <h3 className="
-                    font-[Montserrat]
-                    text-2xl
-                ">
-                    Desarrollo Organizacional
-                </h3>
-                <p>Diseñamos estrategias para fortalecer la estructura de tu empresa y potenciar tu equipo.</p>
-            </CardImgCenter>
-
-            <CardImgCenter svgIcono={capacitacion} titulo={"Capacitación y Talento"}>
-                <h3 className="
-                    font-[Montserrat]
-                    text-2xl
-                ">
-                    Capacitación y Talento
-                </h3>
-                <p>Creamos programas de crecimiento personalizados para nutrir el capital humano y desarrollar tu equipo.</p>
-            </CardImgCenter>
-
-            <CardImgCenter svgIcono={reclutamiento} titulo={"Reclutamiento y Selección"}>
-                <h3 className="
-                    font-[Montserrat]
-                    text-2xl
-                ">
-                    Reclutamiento y Selección
-                </h3>
-                <p>Encontramos el talento adecuado y desarrollamos bancos de talentos para tus necesidades.</p>
-            </CardImgCenter>
-            <CardImgCenter svgIcono={desarrollo_org} titulo={"Desarrollo Organizacional"}>
-                <h3 className="
-                    font-[Montserrat]
-                    text-2xl
-                ">
-                    Desarrollo Organizacional
-                </h3>
-                <p>Diseñamos estrategias para fortalecer la estructura de tu empresa y potenciar tu equipo.</p>
-            </CardImgCenter>
-
-            <CardImgCenter svgIcono={capacitacion} titulo={"Capacitación y Talento"}>
-                <h3 className="
-                    font-[Montserrat]
-                    text-2xl
-                ">
-                    Capacitación y Talento
-                </h3>
-                <p>Creamos programas de crecimiento personalizados para nutrir el capital humano y desarrollar tu equipo.</p>
-            </CardImgCenter>
-
-            <CardImgCenter svgIcono={reclutamiento} titulo={"Reclutamiento y Selección"}>
-                <h3 className="
-                    font-[Montserrat]
-                    text-2xl
-                ">
-                    Reclutamiento y Selección
-                </h3>
-                <p>Encontramos el talento adecuado y desarrollamos bancos de talentos para tus necesidades.</p>
-            </CardImgCenter>
-        </div> */}
-
-
+        <AgentesSection />
 
         <NuestraDiferencialSection/>
+    
+        //<ComoEmpezamosSection/>
+    
+        <ResultadosSection />
+
+        <ContactoSection />
 
     </MainLayout>
   )
