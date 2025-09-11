@@ -16,6 +16,7 @@ import NuestraHistoriaSection from "./features/nuestra_historia/NuestraHistoriaS
 
 import FilosofiaSection from "./features/FilosofiaSection/FilosofiaSection"
 import ValoresSection from "./features/ValoresSection/ValoresSection"
+import ServiciosSection from "./features/servicios/components/ServiciosSection"
 
 
 
@@ -43,6 +44,7 @@ function App() {
 
         <ValoresSection />
 
+        <ServiciosSection />
 
         {/* <div className="grid grid-cols-3 p-20 px-100 gap-10">
             <CardImgCenter svgIcono={desarrollo_org} titulo={"Desarrollo Organizacional"}>
