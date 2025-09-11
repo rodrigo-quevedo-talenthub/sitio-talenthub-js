@@ -10,7 +10,7 @@ export default function NuestraHistoriaSection() {
         >
             <div className="absolute inset-0 bg-[#0d0a2ccc]"></div> 
 
-            <div className="relative w-[80%] lg:w-[80%] max-w-5xl mx-auto space-y-6 text-[#F3F1F2]">
+            <div className="relative w-[75%] lg:w-[80%] mx-auto space-y-6 text-[#F3F1F2]">
                 
                 <h2 className="text-4xl font-bold">
                     Nuestra Historia
