@@ -19,6 +19,7 @@ import ValoresSection from "./features/ValoresSection/ValoresSection"
 import ServiciosSection from "./features/servicios/components/ServiciosSection"
 import AgentesSection from "./features/agentes/components/AgentesSection"
 import ContactoSection from "./features/contacto/components/ContactoSection"
+import ResultadosSection from "./features/resultados/components/ResultadosSection"
 
 
 
@@ -111,6 +112,8 @@ function App() {
 
 
         <AgentesSection />
+
+        <ResultadosSection />
 
         <ContactoSection />
 
