@@ -30,7 +30,7 @@ export default function AgentesSection(){
             style={{backgroundImage: `url(${AgentesBG}`}}
 
         >
-            <div className=" absolute inset-0 bg-[#0d0a2ccc]/90 z-0"></div>
+            <div className=" absolute inset-0 bg-[#0d0a2ccc]/80 z-0"></div>
 
             <div className="
                 relative z-10
