@@ -32,7 +32,7 @@ export default function BannerSVG(props) {
 
     return (
         <svg 
-            width="fit-content" height="72" 
+            width="100%" height="72" 
             viewBox={`0 0 ${width} 83`}
             preserveAspectRatio="none"
             {...props}>

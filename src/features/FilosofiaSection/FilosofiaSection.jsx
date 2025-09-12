@@ -36,7 +36,7 @@ export default function FilosofiaSection(){
                     <CardImgLeft 
                         svgIcono={mision}
                         titulo={"Misión"}
-                        type={"simple"}
+                        type="simple"
                     >
                         <p>Impulsar el crecimiento de las organizaciones a través de la sinergia entre el talento humano y la tecnología, llevando soluciones innovadoras y accesibles a cada empresa.</p>
                     </CardImgLeft>

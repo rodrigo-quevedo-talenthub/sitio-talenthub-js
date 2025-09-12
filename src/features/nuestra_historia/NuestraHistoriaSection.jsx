@@ -5,7 +5,7 @@ export default function NuestraHistoriaSection() {
     return (
 
         <section
-            className="relative bg-cover bg-center bg-no-repeat py-24 "
+            className="relative bg-cover bg-center bg-no-repeat py-44 "
             style={{backgroundImage: `url(${NuestraHistoriaBG}`}}
         >
             <div className="absolute inset-0 bg-[#0d0a2ccc]"></div> 
@@ -17,8 +17,7 @@ export default function NuestraHistoriaSection() {
                 </h2>
 
                 <p className="text-lg leading-relaxed">
-                    TalentHub nació de una idea y de una gran pasión. <span className="font-semibold">Con solo un 10% de capital y un 90% de convicción, nos pusimos un desafío:</span>
-                    democratizar la tecnología para las empresas, sin importar su tamaño o su ubicación.
+                    TalentHub nació de una idea y de una gran pasión. <span className="font-semibold">Con solo un 10% de capital y un 90% de convicción, nos pusimos un desafío:</span> democratizar la tecnología para las empresas, sin importar su tamaño o su ubicación.
                 </p>
 
                 <p className="text-lg leading-relaxed">
